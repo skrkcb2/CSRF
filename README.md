@@ -13,8 +13,14 @@
 #### 3.2 환경 설정 (사용자 도메인: backend.local, 공격자 도메인: front.local, 쿠키 설정: SameSite: Lax/Strict, Secure, HttpOnly)  
 ![image](https://github.com/user-attachments/assets/29380462-6193-4936-ba66-0eb966967640) ![image](https://github.com/user-attachments/assets/a625f1c9-2ed5-4445-8bdb-302733612692)  
 ![csrf_strict](https://github.com/user-attachments/assets/0b223808-9299-41ed-a1bd-de1e019fd4e1)
-#### 해당의 경우는 쿠키 설정을 통해 다른 도메인으로 쿠키가 전송되지 않게 설정을 세팅하여 악성 폼 작동합니다(Strict) / + Lax 또한 결과는 같지만 get 요청은 허용합니다 유의!  
+#### 해당의 경우는 쿠키 설정을 통해 다른 도메인으로 쿠키가 전송되지 않게 설정을 세팅하여 악성 폼 작동합니다(Strict) / + Lax 또한 결과는 같지만 GET 요청은 허용합니다 유의!  
 ### 보안 설정  
+#### 1. 올바른 쿠키 설정 
+#### 위에서 보다시피 쿠키의 설정에 따라 타 도메인에 쿠키를 허용하는냐(None)?, 아니면 같은 도메인만 허용 하느냐(Strict)?,또는 타 도메인에 GET 요청 만 허용 하느냐(Lax)?
+#### 2. Referer 헤더 검증
+#### 아래 이미지를 보면 각 요청에 Referer 헤더가 존재하는 것을 볼수 있다. 
+![image](https://github.com/user-attachments/assets/3cf846a5-23fa-4f63-8edc-9aadb6511886)
+#### 이미지를 보아하면 https://front.local:3001에서의 요청을 보낸것을 확인 할 수 있으며 기존 Insert API 의 경우는 https://backend.local:8443 에서 실행 된다. 그러하여 해당 내용을 api 로직에 추가 하면 된다.
 
 
 
