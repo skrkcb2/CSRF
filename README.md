@@ -21,6 +21,10 @@
 #### 아래 이미지를 보면 각 요청에 Referer 헤더가 존재하는 것을 볼수 있다. 
 ![image](https://github.com/user-attachments/assets/3cf846a5-23fa-4f63-8edc-9aadb6511886)
 #### 이미지를 보아하면 'front.local:3001' 에서의 요청을 보낸것을 확인 할 수 있으며 기존 Insert API 의 경우는 'backend.local:8443' 에서 실행 된다. 그러하여 해당 내용을 api 로직에 추가 하면 된다.
+#### ++ 로직 추가 ++ 
+![image](https://github.com/user-attachments/assets/3db087f9-ac1b-4603-af05-70f14734dcd3)
+
+
 
 
 
