@@ -5,7 +5,8 @@
 ![image](https://github.com/user-attachments/assets/a88794ac-6f66-4bc6-bffb-71c96ae1f4a7)
 #### 2. 공격자 요청 폼의 url 짧게 변경  
 ![image](https://github.com/user-attachments/assets/a28ae90a-183b-4eaa-8cbb-5dbf23e8b824)
-#### 3. 사용자의 흐름
+#### 3. 공격 화면  
+####    환경 설정 (사용자 도메인: backend.local, 공격자 도메인: front.local, 쿠키 설정: SameSite: none, Secure, HttpOnly)  
 
  
 
