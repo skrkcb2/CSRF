@@ -23,6 +23,17 @@
 #### 이미지를 보아하면 'front.local:3001' 에서의 요청을 보낸것을 확인 할 수 있으며 기존 Insert API 의 경우는 'backend.local:8443' 에서 실행 된다. 그러하여 해당 내용을 api 로직에 추가 하면 된다.
 #### ++ 로직 추가 ++ 
 ![image](https://github.com/user-attachments/assets/3db087f9-ac1b-4603-af05-70f14734dcd3)
+#### 3. CSRF 토큰 사용
+#### 여러 가지 방법이 있지만 편의성으로 스프링 시큐리티(보안 프레임워크)의 CSRF 적용.
+#### 기본 적용 시큐리티 설정에 적용
+![jwt](https://github.com/user-attachments/assets/eb476d33-1205-4eaa-aa33-70f4edca6bb4)
+#### 기본 적용이 안될떄 jwtAuthenticationSuccessHandler에 직접 제작해도 됩니다.
+![jwt_csrf](https://github.com/user-attachments/assets/27344863-2f14-45fb-a669-5daadbaa113f)
+#### 적용 후 토큰?
+![ㅌㄴㄱㄹ](https://github.com/user-attachments/assets/35a0d4c8-72ae-44d0-a01b-06076da19893)  ![xsrf](https://github.com/user-attachments/assets/12cf6b2c-7ba2-4603-9874-a78cf57b548e)
+#### 위와 같이 헤더, 쿠키에 저장 되어 클라이언트 에서 가져다가 다시 전달 하면 됩니다. (추가로 검증 필터 제작 필요!)
+
+
 
 
 
