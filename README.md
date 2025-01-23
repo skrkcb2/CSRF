@@ -13,7 +13,9 @@
 #### 3.2 환경 설정 (사용자 도메인: backend.local, 공격자 도메인: front.local, 쿠키 설정: SameSite: Lax/Strict, Secure, HttpOnly)  
 ![image](https://github.com/user-attachments/assets/29380462-6193-4936-ba66-0eb966967640) ![image](https://github.com/user-attachments/assets/a625f1c9-2ed5-4445-8bdb-302733612692)  
 ![csrf_strict](https://github.com/user-attachments/assets/0b223808-9299-41ed-a1bd-de1e019fd4e1)
-#### 해당의 경우는 쿠키 설정을 통해 다른 도메인으로 쿠키가 전송되지 않게 설정을 세팅하여 악성 폼 작동합니다(Strict) / + Lax 또한 결과는 같지만 get 요청은 허용합니다 유의!
+#### 해당의 경우는 쿠키 설정을 통해 다른 도메인으로 쿠키가 전송되지 않게 설정을 세팅하여 악성 폼 작동합니다(Strict) / + Lax 또한 결과는 같지만 get 요청은 허용합니다 유의!  
+#### 4. 보안 설정  
+
 
 
 
