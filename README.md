@@ -5,7 +5,7 @@
 ![image](https://github.com/user-attachments/assets/7be0885d-0e55-4594-9197-b8c01cf25017)
 #### 2. 공격자 요청 폼의 url 짧게 변경  
 ![image](https://github.com/user-attachments/assets/a28ae90a-183b-4eaa-8cbb-5dbf23e8b824)
-#### 3. 공격 화면  
+#### 3. 공격 화면 / 공격자의 폼을 이미 게시판에 저장 -> 사용자가 글을 읽고 링크 클릭 시 발생  
 #### 3.1 환경 설정 (사용자 도메인: backend.local, 공격자 도메인: front.local, 쿠키 설정: SameSite: none, Secure, HttpOnly)  
 ![image](https://github.com/user-attachments/assets/50c1c817-6756-4e7c-80ac-c72e7998de0f)
 ![csrf_none](https://github.com/user-attachments/assets/3e3f04a4-a339-4422-a174-d0bcf9073f1c)
