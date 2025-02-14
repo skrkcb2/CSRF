@@ -27,7 +27,7 @@
 #### 여러 가지 방법이 있지만 편의성으로 스프링 시큐리티(보안 프레임워크)의 CSRF 적용.
 #### 기본 적용 시큐리티 설정에 적용
 ![jwt](https://github.com/user-attachments/assets/eb476d33-1205-4eaa-aa33-70f4edca6bb4)
-#### 기본 적용이 안될떄 jwtAuthenticationSuccessHandler에 직접 제작해도 됩니다.
+#### 기본 적용이 안될떄 직접 선언하여 제작해도 됩니다.
 ![jwt_csrf](https://github.com/user-attachments/assets/27344863-2f14-45fb-a669-5daadbaa113f)
 #### 적용 후 토큰?
 ![ㅌㄴㄱㄹ](https://github.com/user-attachments/assets/35a0d4c8-72ae-44d0-a01b-06076da19893)  ![xsrf](https://github.com/user-attachments/assets/12cf6b2c-7ba2-4603-9874-a78cf57b548e)
